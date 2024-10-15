@@ -10,7 +10,7 @@ spec:
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: podinfo
+  name: podinfo-shard1
   namespace: default
   labels:
     sharding.fluxcd.io/key: shard1
